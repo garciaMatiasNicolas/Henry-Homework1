@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Matias Nicolas",
+        "last_name": "Garcia",
+        "email": "matiasngarcia2002@gmail.com",
+        "password": "RIVERPLATE09"
+    },
+    {
+        "id": 2,
+        "name": "Matias",
+        "last_name": "Garcia",
+        "email": "garciamatias@gmail.com",
+        "password": "Riverplate09"
+    }
+]
