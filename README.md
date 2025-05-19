@@ -36,7 +36,4 @@ project/
 
 1. Cloná o descargá el repositorio.  
 2. Navegá al directorio donde se encuentra `main.py`.  
-3. Ejecutá el menú principal con:
-
-```bash
-python main.py
+3. Ejecutá el menú principal con: python main.py
