@@ -2,13 +2,8 @@ from utils import utils
 
 class Users:
 
-    def user_registration():
+    def user_registration(name: str, last_name: str, email: str, password: str):
         try:
-            name = input("Nombre (solo nombre, el apellido se pide despues): ").strip()
-            last_name = input("Apellido: ").strip()
-            email = input("Email: ").strip()
-            password = input("Contraseña: ").strip()
-
             data = utils.read_json_file()
 
             if any(user.get("email") == email for user in data):

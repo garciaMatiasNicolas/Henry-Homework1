@@ -12,7 +12,12 @@ def main_menu():
         option = input("Elegí una opción (1-4): ").strip()
 
         if option == "1":
-            user.user_registration()
+            name = input("Nombre (solo nombre, el apellido se pide despues): ").strip()
+            last_name = input("Apellido: ").strip()
+            email = input("Email: ").strip()
+            password = input("Contraseña: ").strip()
+
+            user.user_registration(name, last_name, email, password)
 
         elif option == "2":
             print(user.list_users())

@@ -12,5 +12,12 @@
         "last_name": "Garcia",
         "email": "garciamatias@gmail.com",
         "password": "Riverplate09"
+    },
+    {
+        "id": 3,
+        "name": "Matias",
+        "last_name": "Garcia",
+        "email": "masfasf@asdasd.com",
+        "password": "Riverplate09."
     }
 ]
